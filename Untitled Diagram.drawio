@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T05:10:36.801Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="F-orCR94c3HItLWQ7Vyo" version="18.1.2" type="github"><diagram id="CLQ_Mb8HUDeKBbdiP1TF" name="Page-1">jZNNU4MwEIZ/DUedNrGFHrXW9uKpYx1PnUhWkjEQJkkL9dcbYMOHHR1PbJ53d5P9IKLrvN4aVopnzUFFZMbriD5GhMzJKvGfhlw6ktC7DmRGcnQawF5+AcIZ0pPkYCeOTmvlZDmFqS4KSN2EMWN0NXX70Gp6a8kyuAL7lKlr+iq5E1gFiQe+A5mJcPN8ueqUnAVnrMQKxnU1QnQT0bXR2nVWXq9BNc0Lfeninn5R+4cZKNx/Ag6SmN0iVovszerP5BDLl8cbzHJm6oQFR2SpfL6Hd29kjWGdNl67D4K/odd6ZxOIn8MZjGVO6uKYg7W+QfbY5rjlzLi/I6aebdfcJYzC6FPBoalm5sMqIR3sS5Y2auWXzzPhcuVP8/ZlP7sTSgXjoB4h7NYWdA7OXLxLUGOcHK7uEo/VsAeEIhOjHUiQMVy9rM88TMcbOKBwHBah1Ua/E918Aw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-25T06:33:47.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="gc7FkskGZF3SKg0TxWl5" version="18.1.2" type="github">
+  <diagram id="CLQ_Mb8HUDeKBbdiP1TF" name="Page-1">
+    <mxGraphModel dx="1082" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vi2rH57l5gYsok8V7iUD-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;conversations_store:&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(conversations_store.dart)&lt;br&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&amp;nbsp;c&lt;/span&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;onversation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="60" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;conversations_page&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vi2rH57l5gYsok8V7iUD-1" target="3SACtpF3fOpXwXWXqVw0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="100" />
+              <mxPoint x="60" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-3" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;watch&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="3SACtpF3fOpXwXWXqVw0-4" target="Vi2rH57l5gYsok8V7iUD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-4" value="Conversation extends FirestoreMetadata&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px; background-color: initial;&quot;&gt;params:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;documentSnapshot&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;documentChangeType&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="45" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-7" value="&lt;span style=&quot;&quot;&gt;DTO&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="455" y="70" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-11" value="这个firebase提供的类，能够提供监听firestore&lt;br&gt;的文档变化的事件和属性。store借助这些属性&lt;br&gt;来完成监听。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="550" y="180" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="3SACtpF3fOpXwXWXqVw0-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="272.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-14" value="&lt;div style=&quot;line-height: 24px;&quot;&gt;firestore_conversations_service.dart&lt;/div&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;function: listenToDocumentsStream&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="165" y="220" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-19" value="&lt;div style=&quot;line-height: 24px;&quot;&gt;call listen&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="165" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=1.67;arrowHead=12.5;dx2=11.54;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=1.67;arrowHead=12.5;dx2=11.54;fontSize=13;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-24" value="onChange" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="3SACtpF3fOpXwXWXqVw0-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840.0000000000002" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-28" value="监听的原理是，定义一个query，对这个query进行snapshot(), 然后监听这同一个query之后的snapshot值是否变化，如果变化则通知更新。&lt;br&gt;&lt;br&gt;query为：collection为“conversations”的集合中，&lt;span style=&quot;&quot;&gt;participantIds字段中包含当前user的文档集合，以创建时间降序，取前500条数据。&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.466;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3SACtpF3fOpXwXWXqVw0-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="672" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-31" value="在某一个聊天内的监听内容" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="3SACtpF3fOpXwXWXqVw0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="3SACtpF3fOpXwXWXqVw0-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840.0000000000002" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-34" value="&lt;span style=&quot;text-align: left;&quot;&gt;query为：collection为“conversations”的集合中，&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;指定id的特定文档，里面的“&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;conversationMessages”文档，以“&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&amp;nbsp;updatedAt&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;”降序，取500条数据。&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SACtpF3fOpXwXWXqVw0-35" value="均有一个分页的TODO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="840" y="370" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
